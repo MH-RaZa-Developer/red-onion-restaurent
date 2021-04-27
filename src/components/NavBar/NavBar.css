@@ -1,0 +1,12 @@
+button{
+    border: none;
+    margin: 10px;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}

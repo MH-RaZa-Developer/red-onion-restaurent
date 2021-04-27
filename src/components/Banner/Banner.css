@@ -1,0 +1,11 @@
+.banner-area{
+    background-image: url('bg-banner.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 60vh;
+}
+
+.input-area{
+    text-align: center;
+    padding-top: 100px;
+}

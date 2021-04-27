@@ -1,0 +1,16 @@
+.detail-area{
+    width: 300px;
+    margin: 100px;
+    float: left;
+}
+
+.image-area img{
+    width: 400px;
+    border-radius: 50%;
+    margin: 50px;
+    margin-left: 10px;
+}
+
+.image-area p{
+    color: darkgray;
+}

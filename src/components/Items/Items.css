@@ -1,0 +1,18 @@
+.Container{
+    margin-left: 80px;
+}
+
+.food-card{
+    height: 350px;
+    width: 250px;
+    padding: 20px;
+    border: 0.5px solid gray;
+    float: left;
+    text-align: center;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.food-card:hover{
+    box-shadow: 0px 10px 20px gray;
+}
