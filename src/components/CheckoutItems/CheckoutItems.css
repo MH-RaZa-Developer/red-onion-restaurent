@@ -1,0 +1,13 @@
+.con{
+    margin-left: 80px;
+}
+
+.checkout-Item{
+    height: 260px;
+    width: 250px;
+    padding: 20px;
+    border: 0.5px solid gray;
+    float: left;
+    text-align: center;
+    margin: 20px;
+}

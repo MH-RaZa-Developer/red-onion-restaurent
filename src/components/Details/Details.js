@@ -15,13 +15,15 @@ const Details = () => {
 
     const { title, img, description, price} = data;
 
-    const [foodItem, setFoodItem] = useContext(foodContext)
+    const { foodOrder } = useContext(foodContext);
+
+    const [foodItem, setFoodItem] = foodOrder;
 
     const handleAdd = () =>{
         const beforeItems = foodItem;
         setFoodItem([...beforeItems, data])
     }
-    console.log(foodItem);
+    // console.log(foodItem);
 
     return (
         <div>

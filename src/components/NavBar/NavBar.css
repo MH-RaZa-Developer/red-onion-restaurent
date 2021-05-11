@@ -1,12 +1,28 @@
-button{
+.btn{
     border: none;
     margin: 10px;
     border: 2px solid red;
     padding: 10px;
     border-radius: 10px;
+    cursor: pointer;
+    transition: 0.6s;
 }
 
 .nav{
     display: flex;
     justify-content: center;
+}
+
+.btn:hover{
+    border: 2px solid green;
+    font-size: 17px;
+}
+
+.checkout{
+    text-align: center;
+}
+
+.checkout Button{
+    text-transform: capitalize;
+    font-size: 18px;
 }
